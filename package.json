@@ -4,7 +4,9 @@
   "description": "Example app",
   "main": "index.js",
   "scripts": {
+    "start:dev": "nodemon ./bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
+
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/giovannisampaio/posgres-express-app/issues"
   },
-  "homepage": "https://github.com/giovannisampaio/posgres-express-app#readme"
+  "homepage": "https://github.com/giovannisampaio/posgres-express-app#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
