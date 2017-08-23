@@ -1,2 +1,2 @@
-# posgres-express-app
+# postgreSQL-express-app
 Example app 
